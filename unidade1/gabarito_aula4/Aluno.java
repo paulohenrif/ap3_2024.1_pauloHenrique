@@ -56,8 +56,16 @@ public class Aluno {
         this.nota3 = nota3;
     }
 
+    public String getnomeDaMae() {
+        return nomeDaMae;
+    }
+    public void setnomeDaMae(String nomeDaMae) {
+        this.nomeDaMae = nomeDaMae;
+    }
+    
     @Override
     public String toString() {
-        return "Aluno [Nome: " + nome + ", nota1 = " + nota1 + ", nota2 = " + nota2 + ", nota3 = " + nota3 + "]";
+        return "Aluno [nome=" + nome + ", nota1=" + nota1 + ", nota2=" + nota2 + ", nota3=" + nota3 + ", nomeDaMae="
+                + nomeDaMae + ", aprovadoMedia=" + aprovadoMedia + "]";
     }
 }
