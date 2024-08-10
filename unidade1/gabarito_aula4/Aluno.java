@@ -12,13 +12,6 @@ public class Aluno {
     boolean aprovadoMedia = false;
     LocalDate dataNascimento = null;
     LocalDate dataCadastro = LocalDate.now();    
-
-    public LocalDate getDataNascimento(LocalDate dataNascimento) {
-        return dataNascimento;
-    }
-    public void setDataNascimento(LocalDate dataNascimento) {
-        this.dataNascimento = dataNascimento;
-    }
     
     public String getNomeEmMaiusculo() {
         return this.nome.toUpperCase();
@@ -72,6 +65,20 @@ public class Aluno {
     }
     public void setnomeDaMae(String nomeDaMae) {
         this.nomeDaMae = nomeDaMae;
+    }
+
+    public LocalDate getDataNascimento() {
+        return dataNascimento;
+    }
+    public void setDataNascimento(LocalDate dataNascimento) {
+        this.dataNascimento = dataNascimento;
+    }
+    
+    public LocalDate getDataCadastro() {
+        return dataCadastro;
+    }
+    public void setDataCadastro(LocalDate dataCadastro) {
+        this.dataCadastro = dataCadastro;
     }
     
     @Override
