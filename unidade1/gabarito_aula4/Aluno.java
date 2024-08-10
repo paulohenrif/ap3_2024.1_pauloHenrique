@@ -1,14 +1,25 @@
 package unidade1.gabarito_aula4;
 
+import java.time.LocalDate;
+
 public class Aluno {
-        
+    
     String nome;
     double nota1 = 5;
     double nota2;
     double nota3;
     String nomeDaMae = "Maezinha";
     boolean aprovadoMedia = false;
+    LocalDate dataNascimento = null;
+    LocalDate dataCadastro = LocalDate.now();    
 
+    public LocalDate getDataNascimento(LocalDate dataNascimento) {
+        return dataNascimento;
+    }
+    public void setDataNascimento(LocalDate dataNascimento) {
+        this.dataNascimento = dataNascimento;
+    }
+    
     public String getNomeEmMaiusculo() {
         return this.nome.toUpperCase();
     }
@@ -66,6 +77,7 @@ public class Aluno {
     @Override
     public String toString() {
         return "Aluno [nome=" + nome + ", nota1=" + nota1 + ", nota2=" + nota2 + ", nota3=" + nota3 + ", nomeDaMae="
-                + nomeDaMae + ", aprovadoMedia=" + aprovadoMedia + "]";
+                + nomeDaMae + ", aprovadoMedia=" + aprovadoMedia + ", dataNascimento=" + dataNascimento
+                + ", dataCadastro=" + dataCadastro + "]";
     }
 }
