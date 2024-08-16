@@ -6,7 +6,7 @@ Exercicio 1/questao 1 = distância e amplitude
 @codigo-secreto 1345722089
 */
 
-package br.com.ap3.distancia;
+package distancia;
 
 import java.util.Scanner;
 
