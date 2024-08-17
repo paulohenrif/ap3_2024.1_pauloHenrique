@@ -1,4 +1,10 @@
-// (0,5) Crie uma classe chamada Pessoa com um atributo nome (private). Forneça métodos públicos getNome e setNome para acessar e modificar o atributo. Altere o toString para exibir o nome completo em letras maiúsculas.
+/**
+Exercicio 4/questao 4 = construct
+@author pauloHenrique
+@version 1.0
+@since 2024-08-16
+@codigo-secreto 1345722089
+*/
 
 package construct;
 
