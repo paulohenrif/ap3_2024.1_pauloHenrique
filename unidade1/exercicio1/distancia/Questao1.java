@@ -30,15 +30,15 @@ public class Questao1 {
     return distancia;
   }
   
-    public double getAmplitude() {
-      double val1 = 5.4;
-      double val2 = 2.1;
-      double val3 = -3.9;
-      double amplitude = val1 - val2;
-  
-      System.out.println("A amplitude é: " + (amplitude - val3));
-      return amplitude;
-    }
+  public double getAmplitude() {
+    double val1 = 5.4;
+    double val2 = 2.1;
+    double val3 = -3.9;
+    double amplitude = val1 - val2;
+
+    System.out.println("A amplitude é: " + (amplitude - val3));
+    return amplitude;
+  }
 
   public static void main(String[] args) {
     Questao1 questao1 = new Questao1();
