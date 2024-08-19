@@ -1,3 +1,4 @@
+//Xico  - corrigindo: era pra ser no formato javadoc
 /**
 Exercicio 3/questao 3 = Latao e Zinco
 @author pauloHenrique
@@ -23,7 +24,7 @@ public class Questao3 {
         System.out.println("Com " + kg + "kg de latão você precisará de: ");
         System.out.println("70% Cobre: " + cobre);
         System.out.println("30% Zinco: " + zinco);
-        
+
         teclado.close();
     }
 }

@@ -9,13 +9,15 @@ Exercicio 1/questao 4 = Classe Contato
 package contato;
 
 public class Questao4 {
-
+    // Xico - corrigindo: falta construtor com 2 parametros
+    // Xico - corrigindo: nome da classe errado
     String nome;
     String telefone;
 
     public String getNome() {
         return nome;
     }
+
     public void setNome(String nome) {
         this.nome = nome;
     }
@@ -23,17 +25,19 @@ public class Questao4 {
     public String getTelefone() {
         return telefone;
     }
+
     public void setTelefone(String telefone) {
         this.telefone = telefone;
     }
-    
+
     @Override
     public String toString() {
         return "Questao4 [NOME = " + nome.toUpperCase() + "]" + " | " + "[TELEFONE = " + telefone + "]";
     }
+
     public static void main(String[] args) {
         Questao4 contato1 = new Questao4();
-        contato1.setNome("Esly do Acredito");
+        contato1.setNome("Esly do Acredito"); // Xico - corrigindo: eram de pintores renascentistas.
         contato1.setTelefone("+55 (84) 9985-2785");
 
         Questao4 contato2 = new Questao4();
@@ -48,5 +52,5 @@ public class Questao4 {
         System.out.println(contato2);
         System.out.println(contato3);
     }
-    
+
 }

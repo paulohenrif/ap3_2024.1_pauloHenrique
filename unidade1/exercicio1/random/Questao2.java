@@ -14,15 +14,15 @@ import java.util.Random;
 public class Questao2 {
     public static void main(String[] args) {
         LinkedList<Integer> listaLincada = new LinkedList<Integer>();
-        Random randomNumber = new Random();
+        Random randomNumber = new Random(); // Xico - corrigindo: por que em ingles?
 
         for (int i = 0; i <= 9999; i++) {
             int randola = randomNumber.nextInt();
-            listaLincada.add(randola);
+            listaLincada.add(randola); // Xico - corrigindo: por que esse nome?
         }
 
         int menorPositivo = Integer.MAX_VALUE;
-        for (int numeros : listaLincada) {
+        for (int numeros : listaLincada) { // Xico - corrigindo: lincada?
             if ((numeros > 0) && (numeros < menorPositivo)) {
                 menorPositivo = numeros;
             }
