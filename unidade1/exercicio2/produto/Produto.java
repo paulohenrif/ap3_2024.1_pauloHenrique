@@ -17,18 +17,20 @@ public class Produto {
     }
 
     public void adicionarAvaliacao(Estrelas avaliacao) {
-        if (avaliacao.getNota() <= 5) {
+        if (avaliacao.getNota() >= 0 && avaliacao.getNota() <= 5) {
             estrelas.add(avaliacao);
+        } else {
+            System.out.println("Avaliação inválida! Nota deve estar entre 0 e 5 estrelas.");
         }
     }
 
-    public void mostrarAvaliacoes() {
+    public void listarAvaliacoes() {
         System.out.println("Produto: " + nome);
         for (Estrelas avaliacao : estrelas) {
             System.out.println(avaliacao);
         }
     }
-
+    
     public class Estrelas {
         private int nota;
         private String comentario;
@@ -56,8 +58,7 @@ public class Produto {
 
         @Override
         public String toString() {
-            return "Avaliacao [nota=" + nota + ", comentario=" + comentario + "]";
+            return "Produto [nome=" + nome + ", estrelas=" + estrelas + "]";
         }
     }
-
 }
