@@ -12,6 +12,10 @@ public class Produto {
         this.estrelas = new ArrayList<>();
     }
 
+    public Produto(String string, double d) {
+        //TODO Auto-generated constructor stub
+    }
+
     public String getNome() {
         return nome;
     }
