@@ -1,6 +1,6 @@
 package unidade2.exercicio1;
 
-import unidade1.exercicio2.produto.Produto;
+import unidade2.exercicio1.lanchonete_heranca.Produto;
 import unidade2.exercicio1.lanchonete_heranca.Bebida;
 
 public class MainLanchonete {
