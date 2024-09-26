@@ -1,7 +1,6 @@
-/**Classe Questao3
+/**Classe questao3
 
-Construa e teste com 3 instâncias diferentes a classe a seguir. No toString() exiba todos os valores dos atributos, sendo que o nome deve ser exibido sempre em letra MAIÚSCULA. As 3 instâncias devem ser criadas no método main. O construtor é feito com 2 parâmetros. Os nomes nas instâncias devem ser de pintores 
-renascentistas.
+(0,5) Sabendo que latão é 70% de cobre e 30% de zinco, indique a quantidade de cada um desses componentes para se obter uma certa quantidade de quilos de latão que foi requerida pelo usuário.
 
 Para mais informações sobre tipos de dados em Java, consulte:
 https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
