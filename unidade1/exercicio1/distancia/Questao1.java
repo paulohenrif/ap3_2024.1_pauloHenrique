@@ -1,11 +1,14 @@
-//Xico  - corrigindo: era pra ser no formato javadoc
-/**
-Exercicio 1/questao 1 = distância e amplitude
+/**Classe questao1
+
+(0,5) Corrija os erros do arquivo "Questao1.java" que estão no seu repositório.
+
+Para mais informações sobre tipos de dados em Java, consulte:
+https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html
 @author pauloHenrique
 @version 1.0
-@since 2024-08-14
+@since 2024-08-18
 @codigo-secreto 1345722089
-*/
+**/
 
 package distancia;
 
