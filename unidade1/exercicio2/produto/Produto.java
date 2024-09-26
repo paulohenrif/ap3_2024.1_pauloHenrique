@@ -61,4 +61,8 @@ public class Produto {
             return "Produto [nome=" + nome + ", estrelas=" + estrelas + "]";
         }
     }
+
+    public void adicionarAvaliacao(Avaliacao avaliacao) {
+        throw new UnsupportedOperationException("Unimplemented method 'adicionarAvaliacao'");
+    }
 }
