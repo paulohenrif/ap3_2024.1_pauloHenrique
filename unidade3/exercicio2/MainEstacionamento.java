@@ -1,4 +1,4 @@
-package estacionamento;
+package unidade3.exercicio2;
 
 public class MainEstacionamento {
     public static void main(String[] args) {
@@ -13,7 +13,7 @@ public class MainEstacionamento {
             new Thread(new AdicionarVeiculoThread(estacionamento, oVeiculo)).start();
         }
 
-        for (int i = 1; i < quantOperacoes; i++) {
+        for (int i = 1; i <= quantOperacoes; i++) {
             String placa = "FABC-" + (i % 1000);
             System.out.println("Removendo veículo: " + placa);
             new Thread(new RemoverVeiculoThread(estacionamento, placa)).start();

@@ -1,10 +1,10 @@
-package estacionamento;
+package unidade3.exercicio2;
 
-class RemoverLivroThread extends Thread {
+public class RemoverVeiculoThread extends Thread {
     private Estacionamento estacionamento;
     private String placa;
 
-    public void RemoverVeiculoThread(Estacionamento estacionamento, String placa) {
+    public RemoverVeiculoThread(Estacionamento estacionamento, String placa) {
         this.estacionamento = estacionamento;
         this.placa = placa;
     }

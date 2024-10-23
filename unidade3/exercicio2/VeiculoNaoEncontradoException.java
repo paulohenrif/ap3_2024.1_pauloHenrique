@@ -1,4 +1,4 @@
-package estacionamento;
+package unidade3.exercicio2;
 
 public class VeiculoNaoEncontradoException extends Exception {
     public VeiculoNaoEncontradoException(String message) {
